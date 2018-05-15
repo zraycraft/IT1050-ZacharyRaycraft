@@ -1,30 +1,73 @@
 ﻿using System;
 
-namespace Lab03ZackRaycraft
+namespace IT1050MidtermZackRaycraft
 {
     class MainClass
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number");
-            int a = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter another number");
-            int b = Convert.ToInt32(Console.ReadLine());
-            int sumab = a + b;
-            Console.WriteLine(sumab);
+            /*
+            bool keepLooping = true;
+            while (keepLooping == true)
+            {
+                Console.WriteLine("infinite loop");
+            }
+
+            int i;
+            for ( i = 2 ; i < 130; i += 2 )
+            {
+                Console.WriteLine("[" + i + "]");
+            }
 
 
+            for (int i = 49; i > 0; i--)
+            {
+                if (i == 49)
+                {
+                    Console.Write(i);
+                }
+                else
+                {
+                    Console.Write("," + i);
+                }
+            }
 
-            int x = 1;
-            int y = 2;
-            int z = 3;
-            int sumxyz = (x + y) * (z + 10);
-            Console.WriteLine(sumxyz);
+            int i = -1;
+            while (i++ < 22)
+            {
+                if (i % 2 != 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
 
-            Console.WriteLine("Hello\tWorld!");
-            Console.WriteLine("Hello\nWorld!");
-            Console.WriteLine("\"Hello World!\" ");
-            Console.WriteLine("Hello // World!");
+
+            int n = 8;
+            int i = 10; // initialize
+            do
+            {
+                Console.Write("*");
+                i++; // update!
+            } while (i < n); // test condition
+
+            int n = 8;
+            int i = 10;
+            while (i < n)
+            {
+                Console.Write("*");
+                i++;
+            }
+            //The Do-While will always run the first do when the program run. Whereas the while will only run if it is true.
+            */
+
+            Boolean icyRain = false;
+            Boolean tornadoWarning = false;
+
+            if (icyRain == false && tornadoWarning == false)
+            {
+                Console.WriteLine("Let's go outside!");
+            }
+
         }
     }
 }
